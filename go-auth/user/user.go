@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/op/go-logging"
-	"github.com/usmanismail/go-messenger/go-auth/database"
+	"github.com/gitdemo-cn/go-messenger/go-auth/database"
 	"golang.org/x/crypto/bcrypt"
 )
 
