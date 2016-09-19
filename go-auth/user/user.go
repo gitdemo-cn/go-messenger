@@ -3,8 +3,8 @@ package user
 import (
 	"net/http"
 
-	"github.com/op/go-logging"
 	"github.com/gitdemo-cn/go-messenger/go-auth/database"
+	"github.com/op/go-logging"
 	"golang.org/x/crypto/bcrypt"
 )
 

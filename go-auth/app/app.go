@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/gorilla/mux"
-	"github.com/op/go-logging"
 	"github.com/gitdemo-cn/go-messenger/go-auth/database"
 	"github.com/gitdemo-cn/go-messenger/go-auth/user"
+	"github.com/gorilla/mux"
+	"github.com/op/go-logging"
 )
 
 type GoAuth interface {

@@ -6,6 +6,8 @@ function quit {
 	exit $1
 }
 
+sed -i 's/\$\$GO_AUTH_VERSION\$\$/'${GO_AUTH_VERSION}'/g' docker-compose.yml
+
 docker-compose up -d
 
 
