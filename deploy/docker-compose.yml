@@ -10,7 +10,7 @@ auth-service:
     - "mysql-master"
     - "-p"
     - "9000"
-    image: rancherapps.com:5000/go-auth:deploy
+    image: rancherapps.com:5000/go-auth:$GO_AUTH_VERSION
     stdin_open: true
     links:
     - mysql-master:mysql-master
