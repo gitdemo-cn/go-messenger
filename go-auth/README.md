@@ -11,7 +11,7 @@
 	   go-auth [global options] command [command options] [arguments...]
 
 	VERSION:
-	   0.0.1
+	   0.0.2
 
 	AUTHOR:
 	  Usman Ismail - <usman@techtraits.com>
